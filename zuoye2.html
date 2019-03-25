@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web存储</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .sh{
+            width: 200px;
+            height: 40px;
+        }
+        .push{
+            width: 150px;
+            height: 35px;
+            color: dimgrey;
+        }
+        p{
+            float: left;
+            background-color: #e6e5e2;
+            margin: 5px;
+        }
+        .clear{
+            height: 20px;
+            width: 20px;
+            margin-left: 330px;
+            margin-top: 120px;
+            color: white;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="search" placeholder="请输入想查找的商品" class="sh" id="sh">
+        <input type="button" value="搜索" class="push" id="push">
+    </form>
+    <div style="margin-bottom: 10px;">最近搜索</div>
+    <div style="width:350px;" id="yincang">
+            
+    </div>
+    <input type="button" value="X" class="clear" id="clear">
+</body>
+<script>
+    var push = document.getElementById('push');
+    var sh = document.getElementById('sh');
+    push.onclick = function (){
+        var text = sh.value;
+        var time=new Date().getTime();
+        localStorage.setItem(time, text);
+        jilu('yincang');
+    }
+    function jilu(id){
+        var sousuo = '';
+        for (var i = 0; i < localStorage.length; i++) {
+            var value = localStorage.getItem(localStorage.key(i));
+            if(localStorage.getItem(localStorage.key(i))!=localStorage.getItem(localStorage.key(i+1))){
+                sousuo += '<p>'+value+'</p>';
+            }   
+        }
+        yincang.innerHTML = sousuo;
+    }
+    var clear = document.getElementById('clear');
+    clear.onclick = function(){
+        localStorage.clear();
+        alert("全部数据被清除?");
+        jilu('yincang');
+    }
+</script>
+</html>
