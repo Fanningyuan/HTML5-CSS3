@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .father{
+            position: absolute;
+            width: 350px;
+            height: 400px;
+            box-shadow: 0px 4px rgb(212, 209, 209),
+                        3px 0px rgb(212, 209, 209),
+                        -2px 0px rgb(212, 209, 209),
+                        0px -2px rgb(212, 209, 209),
+                        3px 4px rgb(212, 209, 209),
+                        -2px -2px rgb(212, 209, 209),
+                        3px -2px rgb(212, 209, 209),
+                        -2px 4px rgb(212, 209, 209);
+            overflow: hidden;
+        }
+        .img{
+            width: 350px;
+            height: 230px;
+            overflow: hidden;
+            transition: height 0.5s;
+        }
+        .img img{
+            display: block;
+            opacity: 1;
+            transform: scale(1);
+            transition: opacity 0.5s,transform 0.5s;
+        }
+        .father:hover .img{
+            height: 120px;
+            background-color: gray;
+        }
+        .father:hover .img img{
+            opacity: 0.7;
+            transform: scale(1.2);
+        }
+        .day{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: coral;
+            right: 20px;
+            top: 20px;
+            border-radius: 50%;
+            color: white;
+            font-size: 13px;
+            word-break: keep-all;
+            text-align: center;
+            z-index: 1;
+        }
+        .word{
+            position: relative;
+            width: 330px;
+        }
+        .title{
+            position: absolute;
+            top: -43px;
+            height: 25px;
+            background-color: coral;
+            color: white;
+            font-size: 11px;
+            line-height: 25px;
+            padding: 0 15px;
+        }
+        .h2{
+            color: black;
+            font-size: 22px;
+            font-weight: bold;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .level{
+            padding-left: 20px;
+            font-size: 17px;
+            color: coral;
+        }
+        .p{
+            position: absolute;
+            left: 20px;
+            right: 20px;
+            color: #666C74;
+            line-height: 25px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.3s,transform 0.3s;
+            font-size: 13px;
+            margin: 0;
+            text-align: justify;
+        }
+        .father:hover .p{
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .message{
+            position: absolute;
+            left: 20px;
+            bottom: 15px;
+            font-size: 11px;
+            color: #A3A9A2;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="day">15 五月</div>
+        <div class="img"><img src="./zhanqiao.jpg" alt="" height="230px" width="350px"></div>
+        <div class="word">
+            <div class="title">照片</div>
+            <h2 class="h2">青岛栈桥</h2>
+            <div class="level">国家AAAA级旅游景区</div>
+            <p class="p">青岛栈桥是青岛海滨风景区的景点之一，是国务院于1982年首批公布的国家级风景名胜区，
+                也是首批国家AAAA级旅游景区。青岛栈桥位于游人如织的青岛中山路南端，桥身从海岸探入如弯月般的青岛湾深处。
+                桥身供游人参观并在此停靠旅游船，由此乘船可看海上青岛。</p>
+        </div>
+        <div class="message">
+            <div style="float: left;">10分钟前</div>
+            <div style="float:left; padding-left: 20px;">123评论</div>
+        </div>
+    </div>
+</body>
+</html>
