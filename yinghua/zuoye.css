@@ -1,0 +1,1046 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ol,ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:#E1E1E1;
+    margin: 0 auto;
+}
+@media screen and (min-width:751px) and (max-width:1536px){
+    .top-1{
+        background-color: #282828;
+        height: 47px;
+    }
+    .tel{
+        width: 210px;
+        height: 47px;
+        position: absolute;
+        right: 15%;
+    }
+    .tel p{
+        float: left;
+        padding-top: 10px;
+        color: white;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    .login{
+        width: 110px;
+        height: 20px;
+        right: 5%;
+        position: absolute;
+        color:white;
+        padding-top: 12px;
+    }
+    .login-1{
+        width: 54%;
+        border-right: 1px solid white;
+        float: left;
+    }
+    .navul{
+        padding-left: 125px;
+        font-size: 18px;
+    }
+    .navul li{
+        padding-left: 70px;
+    }
+    .lunbo{
+        overflow: hidden;
+        height: 446px;
+        margin-top: 95px;
+    }
+    .con{
+        height: 446px;
+        width: 100px;
+    }
+    /* 搜索框 */
+    .sousuo{
+        width: 583px;
+        height: 50px;
+        border:3px solid #120A0F;
+        border-radius: 5px;
+        position: absolute;
+        top: 345px;
+        left: 488px;
+        color:grey;
+        font-size:16px;
+    }
+    .suosou-1{
+        width: 147px;
+        height: 44px;
+        background-color:#D3D3D8;
+        float:left;
+    }
+    .suosou-1 img{
+        padding-left: 28px;
+    }
+    .suosou-1 span{
+        line-height: 44px;
+    }
+    .suosou-2{
+        background-color:#E1E1E1;
+        float:left;
+        width: 310px;
+        height: 44px;
+    }
+    .suosou-2 li{
+        float:left;
+        padding-left: 33px;
+        padding-top: 12px;
+    }
+    .sousuo button{
+        background-color:#E8420A;
+        border:0;
+        width: 120px;
+        height: 44px;
+    }
+    
+    /* 机场接送 */
+    .air{
+        margin:0 auto;
+        width:1200px;
+        position: relative;
+        margin-top:31px;
+    }
+    .air-1{
+        position:absolute;
+        top: 20px;
+        right: 350px;
+        color:white;
+        font-weight: lighter;
+    }
+    .air-2{
+        float:right;
+        background-color:#14316D;
+        width:265px;
+        height:364px;
+    }
+    .air-2 img{
+        padding-top: 100px;
+        padding-left: 81px;
+    }
+    .air-2 span{
+        padding-left:74px;
+        color:white;
+        font-size:28px;
+    }
+    .air-2 button{
+        width:178px;
+        height:50px;
+        color:white;
+        font-size: 28px;
+        font-weight: lighter;
+        border:1px solid white;
+        border-radius: 8px;
+        background-color: #14316D;
+        margin-top: 50px;
+        margin-left:50px;
+    }
+    /* 热门线路 */
+    .xianlu{
+        margin:0 auto;
+        width:1200px;
+        height:1085px;
+    }
+    .wenzi{
+        height: 70px;
+        margin:0 auto;
+        text-align: center;
+    }
+    .xianlu-1{
+        margin:0 auto;
+    }
+    .xianlu-2{
+        position: relative;
+        float: left;
+        height: 488px;
+    }
+    .xianlu-3{
+        background-color:black;
+        width: 588px;
+        height: 86px;
+        position: absolute;
+        top: 386px;
+        color:white;
+        padding-left:20px;
+        padding-top: 5px;
+    }
+    .xianlu-3 p{
+        font-size: 19px;
+    }
+    .xianlu-2 span{
+        font-size:27px;
+    }
+    .xianlu-4{
+        position: relative;
+        float:right;
+        height: 292px;
+    }
+    .xianlu-4-1{
+        color: white;
+        position: relative;
+        top: -54px;
+        left: 25px;
+        font-size: 15px;
+    }
+    .xianlu-4-1 p{
+        margin-bottom: 2px;
+    }
+    .xianlu-4-1 span{
+        font-size:25px;
+    }
+    .xianlu-4-1 h5{
+        margin: 0;
+    }
+    .xianlu-5{
+        background-color:black;
+        opacity: 0.4;
+        width:608px;
+        height: 62px;
+        position: absolute;
+        top: 230px;
+    }
+    .xianlu-6{
+        position: relative;
+        float: right;
+        height: 355px;
+        width: 608px;
+    }
+    .xianlu-7{
+        background-color: black;
+        opacity: 0.4;
+        width:609px;
+        height: 62px;
+        position: absolute;
+        top: 293px;
+
+    }
+    .xianlu-8{
+        position: relative;
+        float: left;
+        height: 450px;
+    }
+    .xianlu-9{
+        background-color: black;
+        width:588px;
+        height: 86px;
+        position: absolute;
+        top: 438px;
+        color:white;
+        padding-left:20px;
+        padding-top: 5px;
+    }
+    .xianlu-9 p{
+        font-size: 19px;
+    }
+    .xianlu-9 span{
+        font-size: 27px;
+    }
+    .xianlu-10{
+        position: relative;
+        float: right;
+        height: 370px;
+    }
+    .xianlu-11{
+        background-color: black;
+        opacity: 0.4;
+        width:608px;
+        height: 62px;
+        position: absolute;
+        top: 302px;
+    }
+    /* 签证推荐 */
+    .tuijian{
+        margin:0 auto;
+        width:1200px;
+        height: 950px;
+    }
+    .wenzi-1{
+        margin:0 auto;
+        height: 200px;
+        text-align: center;
+        padding-top: 30px;
+        line-height: 38px;
+        font-size: 19px;
+    }
+    .tuijian-1{
+        margin:0 auto;
+    }
+    .tuijian-1 span{
+        font-size:20px;
+    }
+    .tuijian-1-1{
+        position: relative;
+        float: left;
+    }
+    .tuijian-1-2{
+        position: absolute;
+        top: 505px;
+        background-color:black;
+        opacity: 0.5;
+        width: 398px;
+        height: 51px;
+    }
+    .tuijian-1-3{
+        color: white;
+        top: -45px;
+        position: relative;
+        left: 20px;
+        width: 250px;
+    }
+    .tuijian-1-3 h5{
+        font-size: 17px;
+    }
+    .tuijian-2{
+        position: relative;
+        float: left;
+        padding-left: 4px;
+        padding-bottom: 6px;
+        height: 282px;
+    }
+    .tuijian-3{
+        position: relative;
+        float: right;
+        float:top;
+        padding-left:2px;
+        padding-bottom:6px;
+        height: 282px;
+    }
+    .tuijian-2-1{
+        position: absolute;
+        top: 224px;
+        background-color:black;
+        opacity: 0.5;
+        width: 397px;
+        height: 50px;
+    }
+    .tuijian button{
+        margin-left: 110px;
+        margin-top: 55px;
+        width: 180px;
+        height: 40px;
+        border:1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .tuijian-2-750{
+        position: relative;
+        float: left;
+        padding-left: 4px;
+        padding-bottom: 6px;
+        height: 282px;
+    }
+    .tuijian-3-750{
+        position: relative;
+        float: right;
+        float:top;
+        padding-left:2px;
+        padding-bottom:6px;
+        height: 282px;
+    }
+    /* 简介图 */
+    .jianjie img{
+        width:100%;
+        margin:0 auto;
+    }
+    /* 使命与愿景 */
+    .shiming{
+        margin:0 auto;
+        background:url("img/back.png");
+        /* width:1200px; */
+    }
+    .wenzi2{
+        margin:0 auto;
+        height: 235px;
+        text-align: center;
+    }
+    .wenzi2 h2{
+        padding-top: 106px;
+    }
+    .tupian2{
+        margin:0 auto;
+        width:1200px;
+    }
+    .lankuang{
+        float:right;
+        width: 704px;
+        height: 350px;
+        background-color:#1C5080;
+        color:white;
+        padding-top: 70px;
+        padding-left:142px;
+        padding-right:110px;
+    }
+    .lankuang h3{
+        text-align: center;
+    }
+    .lankuang p{
+        line-height: 40px;
+    }
+    .landi{
+        height: 400px;
+        background-color:#1C5080;
+        color:white;
+        margin-top:5px;
+    }
+    .landi li{
+        float:left;
+    }
+    .lanfir{
+        position: relative;
+        color:white;
+        text-align: center;
+    }
+    .lanfir span{
+        font-size:18px;
+        width: 80px;
+    }
+    .lanfir p{
+        width: 255px;
+    }
+    .lanfir1{
+        position: absolute;
+        left:165px;
+        top: 60px;
+    }
+    .lanfir2{
+        position: absolute;
+        left: 228px;
+        top: 127px;
+    }
+    .lanfir3{
+        position: absolute;
+        left:218px;
+        top: 185px;
+    }
+    .lanfir4{
+        position: absolute;
+        top: 290px;
+        left: 137px;
+    }
+    .lanfir5{
+        top: 319px;
+        position: absolute;
+        left: 130px;
+    }
+    .lansec1{
+        position: absolute;
+        left: 526px;
+        top:60px;
+    }
+    .lansec2{
+        position: absolute;
+        left: 594px;
+        top: 116px;
+    }
+    .lansec3{
+        position: absolute;
+        left: 580px;
+        top: 185px;
+    }
+    .lansec4{
+        position: absolute;
+        left: 495px;
+        top: 290px;
+    }
+    .lansec5{
+        position: absolute;
+        left: 495px;
+        top: 320px;
+    } 
+    .lanthi1{
+        position: absolute;
+        left: 863px;
+        top: 60px;
+    }
+    .lanthi2{
+        position: absolute;
+        top: 116px;
+        left: 930px;
+    }
+    .lanthi3{
+        position: absolute;
+        left: 920px;
+        top: 185px;
+    }
+    .lanthi4{
+        position: absolute;
+        left: 835px;
+        top: 290px;
+    }
+    .lanthi5{
+        position: absolute;
+        left: 830px;
+        top: 320px;
+    }
+    /* 底部 */
+    .bottom{
+        background-color:black;
+        height: 527px;
+        color:white;
+    }
+    .bottom ul li{
+        float: left;
+        padding-left:30px;
+    }
+    .ul1{
+        padding-top: 50px;
+        padding-left:125px;
+    }
+    .ul1 :first-child{
+        font-size:18px;
+    }
+    .ul2{
+        padding-top: 50px;
+        padding-left: 260px;
+    }
+    .ul2 li{
+        padding-right: 55px;
+    }
+    .ul1 li{
+        font-size:12px;
+    }
+    .ul3{
+        padding-top: 20px;
+        padding-left: 230px;
+        font-size: 12px;
+    }
+    .ul4{
+        padding-top: 50px;
+        border-bottom:2px solid grey;
+    }
+    .bottom p{
+        text-align:center;
+        padding-top: 40px;
+    }
+    .nav-1{
+        margin: 0;
+    }
+    .lunbozi-1{
+        position: absolute;
+        top:-330px;
+        left:-30px;
+    }
+    .lunbozi-2{
+        position: absolute;
+        top:-250px;
+        font-size:20px;
+        left:-25px;
+        border-top:1px solid;
+        line-height:65px;
+        opacity:0.8;
+    }
+    .lunbozi-3{
+        position: absolute;
+        top:-210px;
+        font-size:20px;
+        left:-25px;
+        border-bottom:1px solid;
+        line-height:65px;
+        opacity:0.8;
+    }
+    .lunbozi-4{
+        display: none;
+    }
+    .header-1{
+        display: none;
+    }
+    .air-750{
+        display: none;
+    }
+    .xianlu-750{
+        display: none;
+    }
+    .xianlu-750-1{
+        display: none;
+    }
+    .tuijian-750-1{
+        display: none;
+    }
+    .bottom-p{
+        display: none;
+    }
+    .tupian21{
+        float: left;
+    }
+    .lankuang h4{
+        display: none;
+    }
+    .jia2{
+        display: none;
+    }
+    .shiming0{
+        display: none;
+    }
+    .youshi{
+        display: none;
+    }
+    .nav-big{
+        padding-left: 180px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:751px){
+    .top-1{
+        display: none;
+    }
+    .nav-1{
+        margin: 0;
+        width: 750px;
+    }
+    .air{
+        display: none;
+    }
+    .jianjie{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .lunbo-750{
+        height: 234px;
+        overflow: hidden;
+    }
+    .lunbo{
+        width: 750px;
+        margin-top: 53px;
+    }
+    .lunbozi-1{
+        position: absolute;
+        top:-150px;
+        left:-30px;
+    }
+    .lunbozi-2{
+        display: none;
+    }
+    .lunbozi-3{
+        display: none;
+    }
+    .lunbozi-4{
+        position: absolute;
+        top:-97px;
+        font-size:23px;
+        left:-25px;
+        line-height:65px;
+    }
+    .header-1{
+        position: absolute;
+        top: 5px;
+        left: 525px;
+        border-radius: 4px;
+        background: #f03a04;
+        border: none;
+        color: white;
+        height: 43px;
+        width: 130px;
+        font-size: 20px;
+        z-index: 9999;
+    }
+    .header-2{
+        background: white;
+    }
+    /* 机场接送 */
+    .air-750{
+        height: 200px;
+        width: 750px;
+        background-color: white;
+        margin-top: 25px;
+    }
+    .air-750-1{
+        position: relative;
+        top: -100px;
+        left: 175px;
+        width: 225px;
+        font-size: 27px;
+        color: #374aa4;
+    }
+    .air-750-2{
+        position: relative;
+        top: -85px;
+        left: 176px;
+        width: 230px;
+        font-size: 19px;
+        color: gray;
+    }
+    .air-750-3{
+        position: relative;
+        top: -90px;
+        left: 176px;
+        font-size: 19px;
+        color: gray;
+        width: 400px;
+    }
+    .air-750 button{
+        position: relative;
+        top: -192px;
+        left: 515px;
+        width: 150px;
+        height: 55px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        background: white;
+        font-size: 19px;
+        color: gray;
+    }
+    /* 搜索框 */
+    .sousuo{
+        width: 583px;
+        height: 50px;
+        border:3px solid #120A0F;
+        border-radius: 5px;
+        position: absolute;
+        top: 155px;
+        left: 100px;
+        color:gray;
+        font-size:16px;
+    }
+    .suosou-1{
+        width: 147px;
+        height: 44px;
+        background-color:#D3D3D8;
+        float:left;
+    }
+    .suosou-1 img{
+        padding-left: 28px;
+    }
+    .suosou-1 span{
+        line-height: 44px;
+    }
+    .suosou-2{
+        background-color:white;
+        float:left;
+        width: 310px;
+        height: 44px;
+    }
+    .suosou-2 li{
+        float:left;
+        padding-left: 33px;
+        padding-top: 12px;
+    }
+    .sousuo button{
+        background-color:#E8420A;
+        border:0;
+        width: 120px;
+        height: 44px;
+    }
+    /* 热门线路 */
+    .xianlu{
+        height: 1070px;
+        width: 750px;
+        background: white;
+        margin-top: 20px;
+    }
+    .wenzi{
+        display: none;
+    }
+    .xianlu-4{
+        display: none;
+    }
+    .xianlu-6{
+        display: none;
+    }
+    .xianlu-10{
+        display: none;
+    }
+    .xianlu-2{
+        position: relative;
+        float: left;
+        height: 488px;
+        left: 90px;
+        top: 40px;
+    }
+    .xianlu-2 span{
+        font-size:27px;
+    }
+    .xianlu-3{
+        background-color:black;
+        width: 588px;
+        height: 86px;
+        position: relative;
+        color:white;
+        padding-left:20px;
+        padding-top: 5px;
+        top: -85px;
+    }
+    .xianlu-3 p{
+        font-size: 19px;
+    }
+    .xianlu-8{
+        position: relative;
+        float: left;
+        height: 450px;
+        left: 90px;
+        top: -40px;
+    }
+    .xianlu-9{
+        background-color: black;
+        width:588px;
+        height: 86px;
+        position: absolute;
+        top: 351px;
+        color:white;
+        padding-left:20px;
+        padding-top: 5px;
+    }
+    .xianlu-9 p{
+        font-size: 19px;
+    }
+    .xianlu-9 span{
+        font-size: 27px;
+    }
+    .xianlu-750{
+        position: relative;
+        width: 150px;
+        height: 55px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        background: white;
+        font-size: 19px;
+        color: gray;
+        bottom: -925px;
+        left: -270px;
+    }
+    .xianlu-750-1{
+        font-size: 26px;
+        position: relative;
+        top: 25px;
+        left: 90px;
+        width: 588px;
+        border-left: 2px solid red;
+        border-bottom: 1px solid gray;
+        padding-left: 15px;
+    }
+    /* 签证推荐 */
+    .wenzi-1{
+        display: none;
+    }
+    .tuijian{
+        height: 670px;
+        width: 750px;
+        background: white;
+        margin-top: 25px;
+    }
+    .tuijian-3-750{
+        display: none;
+    }
+    .tuijian-2-750{
+        display: none;
+    }
+    .tuijian-1-1{
+        position: relative;
+        float: left;
+        height: 500px;
+        overflow: hidden;
+        width: 340px;
+        top: 30px;
+        left: 29px;
+    }
+    .tuijian-1-2{
+        position: absolute;
+        top: 449px;
+        background-color:black;
+        opacity: 0.6;
+        width: 398px;
+        height: 51px;
+    }
+    .tuijian-1-3{
+        color: white;
+        top: -97px;
+        position: relative;
+        left: 20px;
+        width: 250px;
+    }
+    .tuijian-1-3 h5{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .tuijian-1-3 span{
+        font-size: 28px;
+    }
+    .tuijian-2{
+        position: relative;
+        float: left;
+        padding-left: 4px;
+        padding-bottom: 6px;
+        height: 219px;
+        top: 310px;
+        left: 40px;
+        overflow: hidden;
+        width: 353px;
+    }
+    .tuijian-3{
+        position: relative;
+        float: right;
+        padding-left:2px;
+        padding-bottom:6px;
+        height: 270px;
+        top: -188px;
+        left: -19px;
+        width: 349px;
+        overflow: hidden;
+    }
+    .tuijian-2-1{
+        position: absolute;
+        top: 219px;
+        background-color:black;
+        opacity: 0.5;
+        width: 397px;
+        height: 50px;
+    }
+    .tuijian-2-1-1{
+        position: absolute;
+        top: 169px;
+        background-color:black;
+        opacity: 0.5;
+        width: 397px;
+        height: 50px;
+    }
+    .tuijian-1-3-1{
+        color: white;
+        top: -47px;
+        position: relative;
+        left: 20px;
+        width: 250px;
+    }
+    .tuijian-1-3-1 h5{
+        font-size: 21px;
+        margin-top: 0px;
+    }
+    .tuijian-1-3-1 span{
+        font-size: 28px;
+    }
+    .tuijian button{
+        position: relative;
+        width: 150px;
+        height: 55px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        background: white;
+        font-size: 19px;
+        color: gray;
+        bottom: -60px;
+        left: -35px;
+    }
+    .tuijian-750-1{
+        font-size: 26px;
+        position: relative;
+        top: 25px;
+        left: 31px;
+        width: 695px;
+        border-left: 2px solid red;
+        border-bottom: 1px solid gray;
+        padding-left: 15px;
+    }
+    /* 使命与愿景 */
+    .wenzi2{
+        display: none;
+    }
+    .shiming{
+        background-color: white;
+        margin-top: 30px;
+        width: 750px;
+    }
+    .shiming0{
+        font-size: 26px;
+        position: relative;
+        top: 25px;
+        left: 31px;
+        width: 695px;
+        border-left: 2px solid red;
+        border-bottom: 1px solid gray;
+        padding-left: 15px;
+    }
+    .shiming0 span{
+        font-size:20px;
+    }
+    .tupian21{
+        padding-left: 30px;
+        padding-top: 30px;
+        width: 730px;
+    }
+    .lankuang h3{
+        display: none;
+    }
+    .lankuang h4{
+        text-align: center;
+        font-size: 30px;
+        line-height: 100px;
+    }
+    .lankuang p{
+        font-size: 23px;
+        line-height: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tupian2-1{
+        width: 730px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .landi{
+        padding-top: 50px;
+    }
+    .lanfir{
+        display: none;
+    }
+    .youshi{
+        font-size: 29px;
+        text-align: center;
+    }
+    .jia2 li{
+        line-height: 120px;
+        border-bottom:1px solid grey;
+        position: relative;
+    }
+    .jia2 img{
+        padding-left: 160px;
+    }
+    .jia2 div{
+        float: right;
+        position: absolute;
+        top: 34px;
+        left: 310px;
+    }
+    .jia2 p{
+        line-height: 15px;        
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    /* 底部 */
+    .ul1{
+        display: none;
+    }
+    .ul2{
+        display: none;
+    }
+    .ul3{
+        display: none;
+    }
+    .bottom{
+        background-color:#342e35eb;
+        height: 175px;
+        color:white;
+        width: 750px;
+    }
+    .bottom-p-1{
+        padding-top: 65px;
+        margin-left: 240px;
+        font-size: 17px;
+        width: 285px;
+    }
+    .bottom-p{
+        margin-left: 290px;
+        font-size: 17px;
+        width: 285px;
+    }
+}
