@@ -354,7 +354,6 @@ body{
     .shiming{
         margin:0 auto;
         background:url("img/back.png");
-        /* width:1200px; */
     }
     .wenzi2{
         margin:0 auto;
@@ -368,7 +367,7 @@ body{
         margin:0 auto;
         width:1200px;
     }
-    .lankuang{
+    .shiming-1{
         float:right;
         width: 704px;
         height: 350px;
@@ -378,104 +377,104 @@ body{
         padding-left:142px;
         padding-right:110px;
     }
-    .lankuang h3{
+    .shiming-1 h3{
         text-align: center;
     }
-    .lankuang p{
+    .shiming-1 p{
         line-height: 40px;
     }
-    .landi{
+    .shiming-2{
         height: 400px;
         background-color:#1C5080;
         color:white;
         margin-top:5px;
     }
-    .landi li{
+    .shiming-2 li{
         float:left;
     }
-    .lanfir{
+    .shiming-3{
         position: relative;
         color:white;
         text-align: center;
     }
-    .lanfir span{
+    .shiming-3 span{
         font-size:18px;
         width: 80px;
     }
-    .lanfir p{
+    .shiming-3 p{
         width: 255px;
     }
-    .lanfir1{
+    .shiming-3-1{
         position: absolute;
         left:165px;
         top: 60px;
     }
-    .lanfir2{
+    .shiming-3-2{
         position: absolute;
         left: 228px;
         top: 127px;
     }
-    .lanfir3{
+    .shiming-3-3{
         position: absolute;
         left:218px;
         top: 185px;
     }
-    .lanfir4{
+    .shiming-3-4{
         position: absolute;
         top: 290px;
         left: 137px;
     }
-    .lanfir5{
+    .shiming-3-5{
         top: 319px;
         position: absolute;
         left: 130px;
     }
-    .lansec1{
+    .shiming-4-1{
         position: absolute;
         left: 526px;
         top:60px;
     }
-    .lansec2{
+    .shiming-4-2{
         position: absolute;
         left: 594px;
         top: 116px;
     }
-    .lansec3{
+    .shiming-4-3{
         position: absolute;
         left: 580px;
         top: 185px;
     }
-    .lansec4{
+    .shiming-4-4{
         position: absolute;
         left: 495px;
         top: 290px;
     }
-    .lansec5{
+    .shiming-4-5{
         position: absolute;
         left: 495px;
         top: 320px;
     } 
-    .lanthi1{
+    .shiming-5-1{
         position: absolute;
         left: 863px;
         top: 60px;
     }
-    .lanthi2{
+    .shiming-5-2{
         position: absolute;
         top: 116px;
         left: 930px;
     }
-    .lanthi3{
+    .shiming-5-3{
         position: absolute;
         left: 920px;
         top: 185px;
     }
-    .lanthi4{
+    .shiming-5-4{
         position: absolute;
         left: 835px;
         top: 290px;
     }
-    .lanthi5{
+    .shiming-5-5{
         position: absolute;
         left: 830px;
         top: 320px;
@@ -490,29 +489,29 @@ body{
         float: left;
         padding-left:30px;
     }
-    .ul1{
+    .ul-1{
         padding-top: 50px;
         padding-left:125px;
     }
-    .ul1 :first-child{
+    .ul-1 :first-child{
         font-size:18px;
     }
-    .ul2{
+    .ul-2{
         padding-top: 50px;
         padding-left: 260px;
     }
-    .ul2 li{
+    .ul-2 li{
         padding-right: 55px;
     }
-    .ul1 li{
+    .ul-1 li{
         font-size:12px;
     }
-    .ul3{
+    .ul-3{
         padding-top: 20px;
         padding-left: 230px;
         font-size: 12px;
     }
-    .ul4{
+    .ul-4{
         padding-top: 50px;
         border-bottom:2px solid grey;
     }
@@ -570,10 +569,10 @@ body{
     .tupian21{
         float: left;
     }
-    .lankuang h4{
+    .shiming-1 h4{
         display: none;
     }
-    .jia2{
+    .shiming-6{
         display: none;
     }
     .shiming0{
@@ -968,15 +967,15 @@ body{
         padding-top: 30px;
         width: 730px;
     }
-    .lankuang h3{
+    .shiming-1 h3{
         display: none;
     }
-    .lankuang h4{
+    .shiming-1 h4{
         text-align: center;
         font-size: 30px;
         line-height: 100px;
     }
-    .lankuang p{
+    .shiming-1 p{
         font-size: 23px;
         line-height: 40px;
         padding-left: 30px;
@@ -987,43 +986,43 @@ body{
         padding-left: 30px;
         padding-top: 30px;
     }
-    .landi{
+    .shiming-2{
         padding-top: 50px;
     }
-    .lanfir{
+    .shiming-3{
         display: none;
     }
     .youshi{
         font-size: 29px;
         text-align: center;
     }
-    .jia2 li{
+    .shiming-6 li{
         line-height: 120px;
         border-bottom:1px solid grey;
         position: relative;
     }
-    .jia2 img{
+    .shiming-6 img{
         padding-left: 160px;
     }
-    .jia2 div{
+    .shiming-6 div{
         float: right;
         position: absolute;
         top: 34px;
         left: 310px;
     }
-    .jia2 p{
+    .shiming-6 p{
         line-height: 15px;        
         padding-right: 20px;
         font-size: 18px;
     }
     /* 底部 */
-    .ul1{
+    .ul-1{
         display: none;
     }
-    .ul2{
+    .ul-2{
         display: none;
     }
-    .ul3{
+    .ul-3{
         display: none;
     }
     .bottom{
